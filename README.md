@@ -1,5 +1,5 @@
 # BioAgent
-Bio Agent is used to extract information from multiple service providers. It is based on Java Agent DEvelopment framework (JADE). The following code is used to create an agent to print "Hello World" and prints its name. 
+Bio Agent is used to extract information from multiple service providers. It is based on Java Agent DEvelopment framework (JADE). The following code is used to create an agent to print "Hello World!" and prints its name. 
 
 ```java
 import jade.core.Agent;
@@ -8,7 +8,7 @@ import jade.core.Agent;
   { 
       protected void setup() 
       { 
-          System.out.println("Hello World. ");
+          System.out.println("Hello World!");
           System.out.println("My name is "+ getLocalName()); 
       }
   }
