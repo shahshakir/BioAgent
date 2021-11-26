@@ -99,7 +99,7 @@ protected void initi() throws IOException
 	JButton btnNewButton = new JButton("Back");
 	btnNewButton.addActionListener(new ActionListener() {
 		public void actionPerformed(ActionEvent arg0) {
-			new fir();
+			new BioAgent();
 			frame.setVisible(false);
 			frame.dispose();
 		}
