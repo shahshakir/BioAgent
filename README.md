@@ -19,3 +19,5 @@ To comile and run above agent, use the following commands
 javac HelloAgent.java 
 java jade.Boot BioAgent:HelloAgent
 </pre>
+
+For further reading visit my blog, <a href="https://shahshakir.wordpress.com/2012/01/02/inter-platform-agent-mobility-with-jade-4-1-and-jipms-1-2/">Inter-Platform Agent Mobility with JADE and JIPMS </a> ,briefly explains how to make an agent mobile. 
