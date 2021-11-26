@@ -28,7 +28,7 @@ import javax.swing.table.DefaultTableModel;
 import jade.core.Agent;
 
 @SuppressWarnings("serial")
-public class fir extends Agent{
+public class BioAgent extends Agent{
 	private JFrame frame;
 	private JTextField textField;
 	private JTable table;
@@ -38,9 +38,7 @@ public class fir extends Agent{
 	public long result;
 	
 	protected void initialize() {
-		frame = new JFrame();
-		frame.setVisible(true);
-		frame.getContentPane().setFont(new Font("Tahoma", Font.ITALIC, 17));
+		frame = new JFrame(BioAgent		frame.getContentPane().setFont(new Font("Tahoma", Font.ITALIC, 17));
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		GridBagLayout gridBagLayout = new GridBagLayout();
