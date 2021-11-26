@@ -38,7 +38,8 @@ public class sec extends Agent{
 	private JTable table;
 	Database db;
 	String query=null;
-	Agent agent;	boolean abc=false;
+	Agent agent;
+	boolean abc=false;
 	List<String> list = new ArrayList<String>();
 	List<String> colname = new ArrayList<String>();
 	private String Protid="Q12345";
@@ -279,7 +280,7 @@ private class MyTickerBehaviour extends TickerBehaviour {
     
     	/*	
 		AID remoteAMS = new AID("ams@192.168.8.100:1099/JADE", AID.ISGUID); 
-        remoteAMS.addAddresses("http://rahilasyed:7778/acc"); 
+        remoteAMS.addAddresses("http://Databasen:7778/acc"); 
         PlatformID destination = new PlatformID(remoteAMS); 
         agent.doMove(destination);
 		
