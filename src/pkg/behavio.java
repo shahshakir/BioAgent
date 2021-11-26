@@ -77,7 +77,7 @@ public class behavio extends Agent{
                 // move back 
             
                 AID remoteAMS = new AID("ams@192.168.8.100:1099/JADE", AID.ISGUID); 
-                remoteAMS.addAddresses("http://Safia:7778/acc"); 
+                remoteAMS.addAddresses("http://Database1:7778/acc"); 
                 PlatformID destination = new PlatformID(remoteAMS);         																
                 System.out.println("Leaving... "); 
                 agent.doMove(destination);     
